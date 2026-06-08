@@ -1,19 +1,27 @@
+import './styles/global.css';
+import './styles/header-footer.css';
+import './styles/board.css';
 import './styles/pages.css';
 import { BrowserRouter, Routes, Route } from "react-router";
-import { WatchListPage } from "@/routes/watch-page";
-import { HomePage } from "@/routes/home-page";
+import { useState } from "react";
 import { AppLayout } from "./app-layout";
+import { HomePage } from "@/routes/HomePage";
+import { WatchListPage } from "@/routes/WatchListPage";
+import { WatchGamePage } from "@/routes/WatchGamePage";
+import { BattlePage } from "@/routes/BattlePage";
 
 export function App() {
-    return(
+    return (
         <BrowserRouter>
             <AppLayout>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/watch" element={<WatchListPage />} />
-                    <Route path="/watch:id" element={<WatchListPage />} />
+                    <Route path="/watch/:id" element={<WatchGamePage />} />
+                    
+                    <Route path="/battle" element={<BattlePage />} />
                 </Routes>
-            </AppLayout>    
+            </AppLayout>
         </BrowserRouter>
     );
 }
