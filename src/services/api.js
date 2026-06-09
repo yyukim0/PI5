@@ -1,5 +1,5 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL;
-let currentToken = import.meta.env.VITE_API_TOKEN;
+const BASE_URL = "https://pi5-api-production.up.railway.app/api/v1";
+let currentToken = "_WHSKy9hZjru9MsJ3UIV21lFJXoFBQZPTXXc7y0a_x8";
 
 // Função que pega o token atualizado toda vez que for chamada
 const getHeaders = () => ({

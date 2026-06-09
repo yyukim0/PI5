@@ -83,8 +83,8 @@ export function WatchGamePage() {
                     {data.status === "FINISHED" && (
                         <WinnerBanner
                             winnerName={data.winner_player_id === data.turing_player?.id
-                                ? data.turing_player?.group_name
-                                : data.lovelace_player?.group_name}
+                                ? data.turing_player?.ai_player_name
+                                : data.lovelace_player?.ai_player_name}
                         />
                     )}
                 </div>
