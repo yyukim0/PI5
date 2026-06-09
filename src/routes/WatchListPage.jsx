@@ -32,7 +32,7 @@ export function WatchListPage() {
         try {
             // Verificação baseada no ID selecionado
             if (!selectedPlayerId) {
-                alert("Erro: Nenhum jogador selecionado no Front-End!");
+                alert("Erro: Nenhum jogador selecionado");
                 setCreating(false);
                 return;
             }
@@ -82,14 +82,14 @@ export function WatchListPage() {
         <div style={{ maxWidth: "800px", margin: "0 auto", padding: "40px 20px", textAlign: "center" }}>
             <h1 style={{ marginBottom: "20px" }}>Selecione a Partida</h1>
             <p style={{ color: "#636e72", marginBottom: "30px" }}>
-                Lista das últimas partidas geradas no servidor.
+                Lista de Partidas.
             </p>
 
             {/* AGORA ELE SABE QUE DEVE USAR O CSS BONITO DA WATCHLIST */}
             <PlayerSelect
                 value={selectedPlayerId}
                 onChange={setSelectedPlayerId}
-                label="Jogar como:"
+                label="Jogardor:"
                 variant="watchlist" 
             />
 
@@ -102,7 +102,7 @@ export function WatchListPage() {
                 </button>
             </div>
 
-            {loading && games.length === 0 && <p>A carregar partidas...</p>}
+            {loading && games.length === 0 && <p>Carregando partidas...</p>}
             {error && <p className="error-text">Erro ao carregar as partidas. Verifique se o seu token ainda é válido.</p>}
             {!loading && !error && games.length === 0 && <p>Nenhuma partida encontrada.</p>}
 

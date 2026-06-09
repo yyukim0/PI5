@@ -35,7 +35,7 @@ export function HomePage() {
                 />
             </div>
 
-            {/* Seção da Equipe */}
+            {/* Seção da Equipe
             <section className="team-section">
                 <h2>Equipe de Desenvolvimento</h2>
 
@@ -51,17 +51,17 @@ export function HomePage() {
                         isAdvisor={true}
                     />
                 </div>
-            </section>
+            </section> */}
 
             {/* Chamada para Ação - Empilhada Verticalmente */}
             <div className="cta-container" style={{ display: "flex", flexDirection: "column", gap: "20px", alignItems: "center", marginTop: "30px" }}>
                 <Link to="/watch" className="cta-button">
-                    Assistir à Batalha
+                    Assistir
                 </Link>
 
                 {/* Botão com a classe btn-danger */}
                 <Link to="/battle" className="cta-button btn-danger">
-                    BATALHAR
+                    Batalhar
                 </Link>
             </div>
         </div>

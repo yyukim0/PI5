@@ -62,16 +62,16 @@
 
 /* Botão Vermelho para a Arena de Batalha (FORÇADO PARA VENCER A PRIORIDADE) */
 .cta-container .cta-button.btn-danger {
-    background: #ff4757;
-    background-color: #ff4757;
-    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+    background: #000000;
+    background-color: #000000;
+    box-shadow: 0 4px 15px rgba(65, 65, 65, 0.4);
     color: white !important;
 }
 
 .cta-container .cta-button.btn-danger:hover {
-    background: #ff6b81;
-    background-color: #ff6b81;
-    box-shadow: 0 6px 20px rgba(255, 71, 87, 0.6);
+    background: #000000;
+    background-color: #000000;
+    box-shadow: 0 6px 20px rgba(65, 65, 65, 0.6);
     transform: scale(1.1) translateY(-5px);
 }
 
@@ -148,7 +148,7 @@
     align-items: center;
     justify-content: center;
     padding: 15px 45px; /* Aumentei um pouco para dar mais presença */
-    background: linear-gradient(90deg, #00b894, #00cec9);
+    background: linear-gradient(90deg, #290285, #3200d894);
     color: white !important;
     text-decoration: none;
     border-radius: 50px;
@@ -156,7 +156,7 @@
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
-    box-shadow: 0 6px 15px rgba(0, 184, 148, 0.3);
+    box-shadow: 0 6px 15px rgba(9, 0, 51, 0.3);
     transition: all 0.3s ease-in-out;
     border: none;
     cursor: pointer;
@@ -165,7 +165,7 @@
 /* Efeito de hover para combinar com o resto do site */
 .cta-button:hover {
     transform: scale(1.05) translateY(-3px);
-    box-shadow: 0 10px 25px rgba(0, 206, 201, 0.5);
+    box-shadow: 0 10px 25px rgba(0, 4, 66, 0.322);
     filter: brightness(1.1);
 }
 

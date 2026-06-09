@@ -109,9 +109,9 @@ export function BattlePage() {
 
     return (
         <div style={{ maxWidth: "600px", margin: "40px auto", padding: "20px", textAlign: "center" }}>
-            <h1 style={{ color: "#ff4757", fontSize: "2.5rem", margin: "0 0 10px 0" }}>⚔️ Arena de Batalha</h1>
+            <h1 style={{ color: "#ff4757", fontSize: "2.5rem", margin: "0 0 10px 0" }}>Batalhar</h1>
             <p className="hero-subtitle" style={{ marginBottom: "40px" }}>
-                Prepare seu bot para o torneio. Selecione seu jogador acima e escolha uma das opções abaixo.
+                Criar uma partida.
             </p>
 
             {/* SELETOR GLOBAL DE JOGADOR (Serve para as duas ações abaixo) */}
@@ -119,7 +119,7 @@ export function BattlePage() {
                 <PlayerSelect
                     value={selectedPlayerId}
                     onChange={setSelectedPlayerId}
-                    label="1. Quem está jogando agora?"
+                    label="1. Selecione o seu jogador:"
                 />
             </div>
 
@@ -169,7 +169,7 @@ export function BattlePage() {
                         className="cta-button"
                         style={{ width: "100%", padding: "12px", backgroundColor: "#2ed573", color: "#fff", fontSize: "0.9rem" }}
                     >
-                        {loading ? "PROCESSANDO..." : "ENTRAR NA PARTIDA"}
+                        {loading ? "Criaando Partida" : "Gerar Partida"}
                     </button>
                 </form>
 

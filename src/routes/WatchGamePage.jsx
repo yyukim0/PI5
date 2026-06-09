@@ -46,7 +46,7 @@ export function WatchGamePage() {
 
             {loading && !data && (
                 <div className="status-container">
-                    <span>Iniciando conexão com a arena...</span>
+                    <span>Iniciando Partida</span>
                 </div>
             )}
 
