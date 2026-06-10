@@ -1,0 +1,1 @@
+Nós decidimos criar e montar os componentes do jeito que estão pelo fato de deixar eles mais padronizados, como tivemos base no projeto que o professor acabou nos mostrando achamos melhor deixar de uma maneira padronizada para que pudéssemos entender e achar onde certas funções e funcionalidades estavão.

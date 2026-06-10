@@ -13,7 +13,7 @@ export function HomePage() {
                 </p>
             </div>
 
-            {/* Cards de Funcionalidades */}
+            {/* Cards de Funcionalidades
             <div className="features-container">
                 <FeatureCard
                     icon="🌐"
@@ -33,7 +33,7 @@ export function HomePage() {
                     description="Interface frontend dinâmica que renderiza os níveis, os professores e o histórico de turnos."
                     typeClass="card-react"
                 />
-            </div>
+            </div> */}
 
             {/* Seção da Equipe
             <section className="team-section">
