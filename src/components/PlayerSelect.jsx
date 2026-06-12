@@ -1,10 +1,7 @@
 import { api } from "../services/api";
 
 export const PLAYERS = [
-    { id: 21, name: "PalermaBot (Principal)", token: import.meta.env.VITE_API_TOKEN },
-    { id: 78, name: "Eriguei (Teste)", token: import.meta.env.VITE_API_TOKEN_ERIGUEI },
-    { id: 166, name: "Blazurr", token: "_WHSKy9hZjru9MsJ3UIV21lFJXoFBQZPTXXc7y0a_x8" },
-    { id: 167, name: "torstic", token: "nauykeVAbPmknD9k1-zyDqpUMJR6eu7a8_5kE96oqyk" }
+    { id: 166, name: "Blazurr", token: "_WHSKy9hZjru9MsJ3UIV21lFJXoFBQZPTXXc7y0a_x8" }
 ];
 
 export function PlayerSelect({ value, onChange, label, variant = "arena" }) {

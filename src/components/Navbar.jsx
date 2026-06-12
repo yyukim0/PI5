@@ -10,7 +10,7 @@ export function Navbar({ isDark, setIsDark }) {
             <nav className="app-nav">
                 <Link to="/" className="nav-link">Home</Link>
                 <Link to="/watch" className="nav-link">Assistir</Link>
-                <Link to="/battle" className="nav-link" style={{ color: "#ff4757", fontWeight: "bold" }}>
+                <Link to="/battle" className="nav-link">
                     Batalhar
                 </Link>
             </nav>
